@@ -1,0 +1,28 @@
+.c-penguin-card {
+  &__photo {
+    border-radius: 15px;
+    @include breakpoint(tablet) {
+      filter: grayscale(100%);
+      transition: 0.3s;
+    }
+    &:hover {
+      @include breakpoint(tablet) {
+        filter: grayscale(0%);
+        transition: 0.3s;
+        transform: scale(1.1);
+      }
+    }
+
+    @include breakpoint(tablet) {
+      height: 174px;
+    }
+  }
+  &__text-area {
+    margin: 10px 0 30px;
+    text-align: center;
+  }
+  &__ttl {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+}

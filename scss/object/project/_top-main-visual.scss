@@ -1,0 +1,9 @@
+.p-top-main-visual {
+  margin-bottom:60px;
+>img{
+  height: 600px;
+  @include breakpoint(tablet){
+    width: 100%;
+  }
+}
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+// foundation
+@import "./foundation/base";
+
+// layout
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+
+// object
+
+// component
+@import "./object/component/penguin-card";
+@import "./object/component/sec-ttl";
+@import "./object/component/inner";
+
+// project
+@import "./object/project/footer";
+@import "./object/project/header";
+@import "./object/project/sec-about";
+@import "./object/project/sec-penguin";
+@import "./object/project/top-main-visual";
+

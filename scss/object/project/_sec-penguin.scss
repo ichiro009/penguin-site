@@ -1,0 +1,19 @@
+.p-sec-penguin {
+  &__ttl {
+    margin-bottom: 60px;
+  }
+  &__list {
+    @include breakpoint(tablet) {
+      display:flex;
+      justify-content: space-between;
+    }
+  }
+  &__item{
+    font-family: 'Noto Sans JP', sans-serif;
+    @include breakpoint(tablet){
+      width: 32%;
+      margin:0 auto;
+    }
+  }
+}
+

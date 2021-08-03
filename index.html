@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="練習用サイト">
+  <link rel="shortcut icon" href="icon/icon-home.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Indie+Flower&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>FLOCSS練習サイト</title>
+</head>
+
+<body>
+  <header class="l-header p-header c-inner">
+    <h1 class="p-header__logo">
+      <a href=""><img src="img/logo.png" alt="ロゴ" class="p-header__img"></a>
+    </h1>
+    <nav class="p-header__nav">
+      <ul class="p-header__nav-list">
+        <li><a href="#sec-about" class="p-header__nav-item">About</a></li>
+        <li><a href="#sec-penguin" class="p-header__nav-item">Penguin</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="l-main">
+    <div class="p-top-main-visual"><img src="img/main-vi.jpg" alt="メインの画像"></div>
+    <section class="p-sec-about c-inner" id="sec-about">
+      <h2 class="p-sec-about__ttl c-sec-ttl">About</h2>
+      <div class="p-sec-about__profile-wrapper">
+        <div class="p-sec-about__photo"><img src="img/about.jpeg" alt="本人の画像"></div>
+        <dl class="p-sec-about__text-area ">
+          <dt class="p-sec-about__dt">ichiro</dt>
+          <dd class="p-sec-about__dd">私はペンギンが大好きです。水族館に行ったら真っ先にペンギンがどこにいるのか案内版を確認して、即ペンギンを見に行くくらいにペンギン好きです。</dd>
+        </dl>
+      </div>
+
+
+    </section>
+    <section class="p-sec-penguin c-inner" id="sec-penguin">
+      <h2 class="p-sec-penguin__ttl c-sec-ttl">Penguin</h2>
+      <ul class="p-sec-penguin__list">
+        <li class="p-sec-penguin__item">
+          <figure class="c-penguin-card">
+            <img src="img/sec01.jpg" alt="ペンギンの画像" class="c-penguin-card__photo">
+            <figcaption class="c-penguin-card__text-area">
+              <h3 class="c-penguin-card__ttl"> ﾍﾟﾝｷﾞﾝの群れ</h3>
+              <p class=" c-penguin-card__text">ペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛い</p>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="p-sec-penguin__item">
+          <figure class="c-penguin-card">
+            <img src="img/sec02.jpg" alt="ペンギンの画像" class="c-penguin-card__photo">
+            <figcaption class="c-penguin-card__text-area">
+              <h3 class="c-penguin-card__ttl"> ﾍﾟﾝｷﾞﾝの家族</h3>
+              <p class=" c-penguin-card__text">ペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛い</p>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="p-sec-penguin__item">
+          <figure class="c-penguin-card">
+            <img src="img/sec03.jpg" alt="ペンギンの画像" class="c-penguin-card__photo">
+            <figcaption class="c-penguin-card__text-area">
+              <h3 class="c-penguin-card__ttl">見つめるペンギン</h3>
+              <p class="c-penguin-card__text">ペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛いペンギン可愛い</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+
+  <footer class="l-footer p-footer">
+    <p><small class="p-footer__copyLight">© 2021 Profile</small></p>
+  </footer>
+  <script src="JavaScript/main.js"></script>
+</body>
+
+</html>
